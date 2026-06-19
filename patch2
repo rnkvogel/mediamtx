@@ -1,0 +1,13 @@
+/docker
+  Dockerfile
+  entrypoint.sh
+
+/config
+  mediamtx.yml
+
+/hooks
+  startup.sh
+  shutdown.sh
+
+/docs
+  AWS_ARCHITECTURE.md

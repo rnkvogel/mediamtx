@@ -438,6 +438,6 @@ webrtcICEServers2:
   # Xirsys ident/secret are API credentials used to request TURN credentials;
   # they are not the same thing as the temporary TURN username/password.
   - url: turns:global.xirsys.net:443?transport=tcp
-    username: REPLACE_WITH_XIRSYS_TURN_USERNAME
-    password: REPLACE_WITH_XIRSYS_TURN_PASSWORD
+    username: wrecker420
+    password: bee3a048-bda1-11e6-b15f-ec4a59e07981
     clientOnly: false

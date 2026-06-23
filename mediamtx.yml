@@ -422,13 +422,23 @@ webrtcAdditionalHosts:
 # ICE servers. Needed only when local listeners can't be reached by clients.
 # STUN servers allow to obtain and share the public IP of the server.
 # TURN/TURNS servers force all traffic through them.
-webrtcICEServers2:
-  - url: stun:global.xirsys.net
+#webrtcICEServers2:
+#  - url: stun:global.xirsys.net
 
-  - url: turns:global.xirsys.net:443?transport=tcp
-    username: wrecker420
-    password: bee3a048-bda1-11e6-b15f-ec4a59e07981
-    clientOnly: false
+#  - url: turns:global.xirsys.net:443?transport=tcp
+#    username: wrecker420
+#    password: bee3a048-bda1-11e6-b15f-ec4a59e07981
+#    clientOnly: false
+webrtcICEServers2:
+  - url: stun:free.expressturn.com:3478
+
+  - url: turn:free.expressturn.com:3478?transport=udp
+    username: "000000002097601140"
+    password: "3DdRqLI8HYfx2bA5Vl8g9Pvy4Hk="
+
+  - url: turn:free.expressturn.com:3478?transport=tcp
+    username: "000000002097601140"
+    password: "3DdRqLI8HYfx2bA5Vl8g9Pvy4Hk="
 # Maximum time to gather STUN candidates.
 webrtcSTUNGatherTimeout: 5s
 # Time to wait for the WebRTC handshake to complete.

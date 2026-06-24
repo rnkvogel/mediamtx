@@ -426,19 +426,19 @@ webrtcAdditionalHosts:
 #  - url: stun:global.xirsys.net
 
 #  - url: turns:global.xirsys.net:443?transport=tcp
-#    username: wrecker420
-#    password: bee3a048-bda1-11e6-b15f-ec4a59e07981
+#    username: wr.........
+#    password: bee3a048.....
 #    clientOnly: false
 webrtcICEServers2:
-  - url: stun:free.expressturn.com:3478
+  - url: stun:
 
-  - url: turn:free.expressturn.com:3478?transport=udp
-    username: "000000002097601140"
-    password: "3DdRqLI8HYfx2bA5Vl8g9Pvy4Hk="
+  - url: turn:
+    username: "00000-----"
+    password: "3DdRq--------"
 
-  - url: turn:free.expressturn.com:3478?transport=tcp
-    username: "000000002097601140"
-    password: "3DdRqLI8HYfx2bA5Vl8g9Pvy4Hk="
+  - url: turn:------------?transport=tcp
+    username: "00000-----"
+    password: "3DdRq------"
 # Maximum time to gather STUN candidates.
 webrtcSTUNGatherTimeout: 5s
 # Time to wait for the WebRTC handshake to complete.
